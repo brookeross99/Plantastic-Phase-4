@@ -102,26 +102,26 @@ h1, h3{
 /* -------- About -------- */
 .about-container{
   width: 100vw;
-  height: 100vh;
   padding: none;
   margin: 0 auto;
   max-width: 1500px;
   background-image: url("./PlantImages/plantPic7.jpg");
   background-repeat: no-repeat; 
   background-size: cover;
+  background-attachment: fixed;
+  overflow-y: scroll;
+
 }
 .about{
   padding: 100px 50px;
   margin: 0 auto;
   width: 60vw;
-  height: 100vh;
   max-width: 1500px;
-  overflow-y: scroll;
   color: var(--white);
 	backdrop-filter: blur(15px);
   }
 
-  .about h1{
+  .about h1, .about h2, .about h3{
     color: var(--white)
   }
 
