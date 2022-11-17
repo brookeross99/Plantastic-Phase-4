@@ -15,7 +15,7 @@ const ReviewPlantsCard = ({ comment, id, setUpdateReviews, image, setUpdateAfter
     <div className="review-card plant-card">
       <img src={image} alt={id} />
       <h3>{comment}</h3>
-      <button className= "delete-btn" onClick={handleDelete} >X</button>
+      <button className= "delete-btn" onClick={handleDelete} >🗑️</button>
       <Link to={`/reviews/${id}`}>
       <button className= "edit-btn">Edit</button>
       </Link>

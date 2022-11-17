@@ -22,7 +22,7 @@ const PlantCard = ({name, image, indoor, pet_safe,state, post_id, setUpdateAfter
       <Link to={`myPlants/${post_id}`}>
         <button className= "edit-btn">Edit</button>
       </Link>
-      <button className= "delete-btn" onClick={handleDeleteClick}>X</button>
+      <button className= "delete-btn" onClick={handleDeleteClick}>🗑️</button>
 
     </div>
   )
