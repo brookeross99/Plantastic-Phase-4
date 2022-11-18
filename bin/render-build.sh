@@ -10,4 +10,6 @@ cp -a client/build/. public/
 # builds the back end code
 bundle install
 bundle exec rake db:migrate
-bundle exec rake db:seed # if you have seed data, run this command for the initial deploy only
+
+# Recomment in this line if you want to have seed data # if you have seed data, run this command for the initial deploy only
+# bundle exec rake db:seed
