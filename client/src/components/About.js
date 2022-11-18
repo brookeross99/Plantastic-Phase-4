@@ -2,6 +2,7 @@ import React from 'react'
 import Anna_about from '../imagesFolder/Anna_about.jpeg'
 import Brooke_about from '../imagesFolder/Brooke_about2.jpg'
 import Cindy_about from '../imagesFolder/Cindy_about.jpg'
+import Mustafa_about from '../imagesFolder/Mustafa_about.jpg'
 
 const About = () => {
   return (
@@ -53,7 +54,7 @@ const About = () => {
             <p>Cindys's favorite plant is... a Asplenium nidus variegated!</p>
         </div>
         <div className="about-information">
-            {/* <img src={Mustafa_about} alt="Mustafa" />  */}
+            <img src={Mustafa_about} alt="Mustafa" /> 
             <a href="https://www.linkedin.com/in/mustafa-rizvi-970494138/" target="_blank" >Mustafa <i className="fa-brands fa-linkedin" /></a>
             <p>Mustafa's favorite plant is... a fiddle leaf fig!</p>
         </div>

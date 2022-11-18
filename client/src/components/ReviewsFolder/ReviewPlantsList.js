@@ -10,7 +10,7 @@ const ReviewPlantsList = ({ reviews, setUpdateReviews, setUpdateAfterDelete }) =
        key={oneReview.id}
        comment={oneReview.comment}
        id={oneReview.id}
-       image={oneReview.plant_post.image}
+       image={oneReview.plant_post?.image}
        setUpdateReviews={setUpdateReviews}
        setUpdateAfterDelete={setUpdateAfterDelete}/>
 

@@ -43,6 +43,7 @@ const handleCommentSubmit = (e) => {
       res.json().then((userData) => {
         history.push(`/globalPlants`)
         setUpdateReviews(userData)
+        setComment('')
       });
     } else {
       res.json().then((err) => setErrors(err.errors))
