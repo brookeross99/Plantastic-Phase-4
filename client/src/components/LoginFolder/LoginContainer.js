@@ -12,7 +12,6 @@ const LoginContainer = ({ setUser, fetchGlobalPlants }) => {
     <div className="login-container">
         {showLogin ? (
             <div>
-                
                 <video id="background-video" src={VideoBackground} autoPlay loop muted />
                 <div className="loginBlur">
                     <Login setUser={setUser} fetchGlobalPlants={fetchGlobalPlants}/>
